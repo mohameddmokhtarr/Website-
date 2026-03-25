@@ -1,0 +1,14 @@
+// New metadata structure
+meta = {
+graceDays: 0,        // 0-3 day buffer
+streakResets: [      // Historical resets
+{ date: “2026-03-25”, streakAt: 42 }
+]
+}
+// Separate storage keys
+STORAGE_KEY = “daily-tracker-data-v2”      // Track data
+META_KEY = “daily-tracker-meta”            // Settings
+CategoryBar // Reusable category progress component
+StreakCelebration // Milestone celebration modal
+Settings // Grace days + reset history
+ResetConfirm // Safety confirmation dialog
